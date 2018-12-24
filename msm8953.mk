@@ -90,6 +90,7 @@ PRODUCT_PACKAGES += \
     audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
+    libaacwrapper \
     libaudio-resampler \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -393,3 +394,7 @@ PRODUCT_COPY_FILES += \
 # Xiaomi
 PRODUCT_PACKAGES += \
     Gestures
+
+# Wi-Fi Display
+PRODUCT_BOOT_JARS += \
+    WfdCommon
